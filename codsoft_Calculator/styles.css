@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D3B40;
+}
+
+#display-screen-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#display-screen{
+    height: 100px;
+    width: 100%;
+    font-size: x-large;
+    color: #ffffff;
+    border-radius: 28px;
+    background-color: #323643;
+    text-align: end ;
+}
+
+#container{
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 28px;
+    background-color: #181818;
+}
+
+.keyBtns{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(4, 40px);
+    grid-template-columns: repeat(4, 40px);
+    grid-gap: 12px;
+    border-radius: 100px;
+}
+
+.numBtns{
+    padding: 8px;
+    color: #19A7CE;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+#item-addition{
+    grid-area: 3/4/5/4;
+}
+
+#item-equals{
+    grid-area: 5/3/5/5;
+}
+
+.operators{
+    color: #ffffff;
+    background-color: #068FFF;
+    font-size: larger;
+    border-radius: 12px;
+}
+
+.item-otherfn{
+    background-color: #FFCF50;
+    font-size: larger;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
